@@ -1,0 +1,47 @@
+.work {
+    width: 300px;
+    height: 350px;
+    background-color: #c6fff7;
+}
+
+.icon {
+    background-color: #a4a29b;
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+}
+
+.button {
+    background-color: grey;
+}
+
+.workDescription {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.title {
+    background-color: lightgrey;
+}
+
+.description {
+    background-color: lightgrey;
+}
+
+@media (max-width: 750px) {
+    .work {
+        margin-top: 15px;
+    }
+}
+@media (max-width: 379px) {
+    .work {
+        width: 250px;
+        height: 300px;
+    }
+}
