@@ -39,6 +39,7 @@
         margin-top: 15px;
     }
 }
+
 @media (max-width: 379px) {
     .work {
         width: 250px;

@@ -6,9 +6,11 @@
     align-items: center;
     justify-content: space-around;
 }
+
 .name {
     background-color: #a4a29b;
 }
+
 .block {
     border: 1px solid darkblue;
     width: 300px;
@@ -16,10 +18,12 @@
     display: flex;
     justify-content: space-between;
 }
+
 .item {
     background-color: #a4a29b;
     width: 40px;
 }
+
 .allRights {
     background-color: #a4a29b;
 }

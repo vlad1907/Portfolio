@@ -18,10 +18,8 @@
     background-color: lightgrey;
 }
 
-@media (max-width: 750px) {
+@media screen and (max-width: 750px) {
     .works {
-        flex-direction: column;
-        align-items: center;
         margin-top: 15px;
     }
 }

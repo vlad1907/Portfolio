@@ -5,22 +5,26 @@
 
 .title {
     width: 300px;
-    background-color:  #cef8fd;
+    background-color: #cef8fd;
 }
+
 .photo {
     width: 300px;
     height: 400px;
     background-color: #cef8fd;
 }
-@media (max-width: 750px) {
+
+@media screen and (max-width: 750px) {
     .mainContainer {
         flex-direction: column;
     }
 }
-@media (max-width: 379px) {
+
+@media screen and  (max-width: 379px) {
     .title {
         width: 250px;
     }
+
     .photo {
         width: 250px;
     }

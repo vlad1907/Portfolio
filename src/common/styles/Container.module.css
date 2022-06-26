@@ -8,8 +8,9 @@
     justify-content: space-between;
     flex-wrap: wrap;
 }
-@media (max-width: 750px) {
-    .container{
+
+@media screen and (max-width: 750px) {
+    .container {
         justify-content: space-around;
     }
 }

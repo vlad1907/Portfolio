@@ -5,7 +5,7 @@ const Work = (props) => {
     return (
         <div className={s.work}>
             <div className={s.icon}>
-                <button  className={s.button}>Watch</button>
+                <button className={s.button}>Watch</button>
             </div>
             <div className={s.workDescription}>
                 <h3 className={s.title}>{props.title}</h3>
